@@ -13,7 +13,7 @@ export const getDefaultDocumentNode: DefaultDocumentNodeResolver = (
             .component(Iframe)
             .options({
                 url: `${
-                    process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000"
+                    process.env.NEXT_PUBLIC_VERCEL_URL || "https://hels-blog.vercel.app"
                 }/api/preview`,
 
                 defaultSize: `desktop`,
